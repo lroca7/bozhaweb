@@ -14,11 +14,12 @@ li {
 
 .header {
   background: #339197;
-  height: 150px;
+  height: 140px;
   padding: 5px 10%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 .logo {
   width: 110px;
@@ -30,18 +31,105 @@ li {
   display: flex;
 }
 .nav-menu li {
-  margin: 0 5px;
+  margin: 0 25px;
   font-weight: bold;
   color: #072A3E;
   font-size: 18px;
   cursor: pointer;
 }
+.nav-menu li:hover {
+  text-decoration: underline;
+}
+
 
 section {
   padding: 10px 10%;
+}
+.section {
+  display: flex;
 }
 .section-title {
   color: #072A3E;
   font-family: 'Pacifico', cursive;
   margin-bottom: 12px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.productos div {
+  margin: 10px 15px;
+}
+
+.circle-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.circle-uno {
+  background-image: url("../images/uno.jpg");
+  background-color: #cccccc;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.circle-dos {
+  background-image: url("../images/dos.png");
+  background-color: #cccccc;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.circle-tres {
+  background-image: url("../images/tres.jpg");
+  background-color: #cccccc;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.player {
+  /* height: 250px;
+  width: 200px; */
+}
+
+.player .picture {
+  background-image: url("../images/player.jpg");
+  height: 250px;
+  width: 200px;
+  border-radius: 10px 10px 0px 0px;
+}
+.player .player-name {
+  width: 200px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: #339197;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.player .sombra {
+  background: red;
+  opacity: 0.5;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+
+.footer {
+  background-image: url('../images/footer.png');
+  background-size: cover;
+  width: 100%;
+  height: 400px;
 }
