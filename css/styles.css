@@ -12,6 +12,10 @@ li {
   list-style-type: none;
 }
 
+body{
+  background: #ecdbba;
+}
+
 .header {
   background: #339197;
   height: 140px;
@@ -19,7 +23,6 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
 }
 .logo {
   width: 110px;
@@ -39,6 +42,13 @@ li {
 }
 .nav-menu li:hover {
   text-decoration: underline;
+}
+
+.gallery {
+  background-image: url('../images/gal1.jpg');
+  border-radius: 0px 0px 50px 0px;
+  height: 380px;
+  background-size: cover;
 }
 
 
